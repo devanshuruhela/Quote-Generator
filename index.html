@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Quotes Generator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="quote_container" id="quote_container">
+        
+        <!-- quote -->
+        <div class="quote_text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+            <i class="fas fa-quote-right"></i>
+        </div>
+        <!-- Author -->
+        <div class="quote_author">
+            <span id="author"></span>
+        </div>
+        <!-- Buttons -->
+        <div class="button_container">
+            <button class="twitter_button" id="twitter" title="Tweet this!"><i class="fab fa-twitter"></i></button>
+            <button class="new_quote" id="newquotes">New Quote</button>
+            
+        </div>
+    </div>
+    <div class="loader" id="Loader"></div>
+    <div class="footer">
+       <p>Made with love by Devanshu</p>
+     </div> 
     <!-- Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
